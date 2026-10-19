@@ -333,14 +333,14 @@ export default function App() {
                 ideas, data projects and useful software.
               </p>
               <a className="contact-email" href="mailto:hello@example.com">
-                hello@example.com <ArrowUpRight size={18} />
+                sruffy07@gmail.com <ArrowUpRight size={18} />
               </a>
               <div className="contact-socials">
-                <a href="https://github.com/" target="_blank" rel="noreferrer">
+                <a href="https://github.com/Ruffysanni" target="_blank" rel="noreferrer">
                   <Github size={17} /> GitHub
                 </a>
                 <a
-                  href="https://linkedin.com/"
+                  href="https://www.linkedin.com/in/sanni-rufai/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -353,9 +353,9 @@ export default function App() {
       </main>
       <footer className="footer">
         <a className="logo" href="#home">
-          <span className="logo-symbol">a.</span>
+          <span className="logo-symbol">s.</span>
           <span>
-            Alex Morgan<span className="logo-dot">/</span>
+            Sanni Rufai<span className="logo-dot">/</span>
           </span>
         </a>
         <span>Designed with care · Built with React</span>
