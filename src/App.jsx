@@ -21,9 +21,11 @@ const projects = [
     category: "AI & Backend",
     description:
       "A modular service concept to help analysts review lending applications, policy requirements and financial evidence.",
-    tags: ["Python", "FastAPI", "PostgreSQL"],
+    tags: ["Python", "FastAPI", "PostgreSQL", "Microsoft Azure"],
     tone: "peach",
     number: "01",
+    // liveUrl: "https://your-credit-risk-app.netlify.app",
+    githubUrl: "https://github.com/tag-ecosystemai/c1-navigators-project-3",
   },
   {
     title: "Local Study Assistant",
@@ -33,6 +35,8 @@ const projects = [
     tags: ["React", "FastAPI", "Ollama"],
     tone: "lavender",
     number: "02",
+    // liveUrl: "https://your-credit-risk-app.netlify.app",
+    // githubUrl: "https://github.com/Ruffysanni/your-credit-risk-repo",
   },
   {
     title: "Customer Insights",
@@ -42,6 +46,8 @@ const projects = [
     tags: ["Python", "SQL", "Power BI"],
     tone: "mint",
     number: "03",
+    liveUrl: "https://customer-intelligence-classifier-fiwfa769tbpcymodkn3x9f.streamlit.app/",
+    // githubUrl: "https://github.com/Ruffysanni/your-credit-risk-repo",
   },
 ];
 const skills = [
