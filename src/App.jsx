@@ -28,7 +28,7 @@ const projects = [
     githubUrl: "https://github.com/tag-ecosystemai/c1-navigators-project-3",
   },
   {
-    title: "Local Study Assistant",
+    title: "Nimde: A Local Study Assistant",
     category: "AI & Education",
     description:
       "A learning assistant concept for summarising study notes and generating questions grounded in uploaded materials.",
@@ -36,10 +36,10 @@ const projects = [
     tone: "lavender",
     number: "02",
     // liveUrl: "https://your-credit-risk-app.netlify.app",
-    // githubUrl: "https://github.com/Ruffysanni/your-credit-risk-repo",
+    githubUrl: "https://github.com/tag-ecosystemai/c1-navigators-project-2",
   },
   {
-    title: "Customer Insights",
+    title: "Customer Intelligence Application",
     category: "Data Analytics",
     description:
       "An analytics workflow exploring customer data, preparing useful features and presenting findings in a clear format.",
@@ -47,7 +47,7 @@ const projects = [
     tone: "mint",
     number: "03",
     liveUrl: "https://customer-intelligence-classifier-fiwfa769tbpcymodkn3x9f.streamlit.app/",
-    // githubUrl: "https://github.com/Ruffysanni/your-credit-risk-repo",
+    githubUrl: "https://github.com/tag-ecosystemai/c1-navigators-project-1",
   },
 ];
 const skills = [
@@ -114,13 +114,46 @@ function ProjectCard({ project }) {
       <div className="project-content">
         <div className="project-title-row">
           <h3>{project.title}</h3>
-          <ArrowUpRight size={20} />
+
+          {project.liveUrl && (
+            <a
+              href={project.liveUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={`View live ${project.title} project`}
+              title="View live project"
+            >
+              <ExternalLink size={20} />
+            </a>
+          )}
         </div>
         <p>{project.description}</p>
         <div className="tags">
           {project.tags.map((tag) => (
             <span key={tag}>{tag}</span>
           ))}
+        </div>
+
+        <div className="project-links">
+          {project.liveUrl && (
+            <a
+              href={project.liveUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Live Demo <ExternalLink size={15} />
+            </a>
+          )}
+
+          {project.githubUrl && (
+            <a
+              href={project.githubUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Source Code <Github size={15} />
+            </a>
+          )}
         </div>
       </div>
     </article>
