@@ -49,6 +49,19 @@ const projects = [
     liveUrl: "https://customer-intelligence-classifier-fiwfa769tbpcymodkn3x9f.streamlit.app/",
     githubUrl: "https://github.com/tag-ecosystemai/c1-navigators-project-1",
   },
+
+  {
+    title: "AI Fraud and Investigation intelligence",
+    category: "AI Engineering",
+    description:
+      "An analytics workflow exploring customer data, preparing useful features and presenting findings in a clear format.",
+    tags: ["Python", "Postgresql", "AI Engineering"],
+    tone: "mint",
+    number: "03",
+    // liveUrl: "https://customer-intelligence-classifier-fiwfa769tbpcymodkn3x9f.streamlit.app/",
+    githubUrl: "https://github.com/Ruffysanni/AI_Fraud_Detection_Investigation",
+  },
+
 ];
 const skills = [
   ["Python", "Programming"],
